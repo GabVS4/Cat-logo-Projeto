@@ -6,7 +6,7 @@ Alunos:
         
         -Joana Sthefanny Gomes Costa dos Santos
         
-        -
+        -Joelson studart Rocha de Sousa
         
         -Yann Lucca Miranda Martins Barros
         
