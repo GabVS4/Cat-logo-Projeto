@@ -2,11 +2,11 @@ package state;
 
 public interface ImovelState {
 	
-	ImovelState ImovelAlugado();
+	ImovelState imovelAlugado();
 
-	ImovelState TerminoContrato();
+	ImovelState terminoContrato();
 
-	ImovelState Vendido();
+	ImovelState imovelVend();
 
 
 	

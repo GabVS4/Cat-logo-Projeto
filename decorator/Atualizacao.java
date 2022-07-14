@@ -3,6 +3,7 @@ package decorator;
 public class Atualizacao extends FuncionalidadeDecorator {
 
 		public Atualizacao (Funcionalidade umFunc) {
+			super(umFunc);
 			nome = "Atualizar sistema";
 			atualizar();
 		}

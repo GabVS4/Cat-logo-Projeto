@@ -22,12 +22,12 @@ public class DatabaseConnection {
 		return instancia;
 	}
 	
-	public void conectar() {
-		System.out.println("Conectado");
+	public String conectar() {
+		return "Conectado";
 	}
 	
-    public void desconectar() {
-    	System.out.println("Desconectado");
+    public String desconectar() {
+    	return "Desconectado";
 	}
 
     

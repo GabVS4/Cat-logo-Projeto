@@ -3,6 +3,7 @@ package decorator;
 public class AnunciarImovel extends FuncionalidadeDecorator {
 
 	public AnunciarImovel(Funcionalidade umFunc) {
+		super(umFunc);
 		nome = "Anunciar Imovel";
 		registrar();
 		anunciar();

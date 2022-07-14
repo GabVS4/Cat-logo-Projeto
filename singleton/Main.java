@@ -4,9 +4,9 @@ public class Main {
 	
 	public static void main (String[] args) {
 
-	DatabaseConnection.getInstance().conectar();
+	System.out.println(DatabaseConnection.getInstance().conectar());
 	
-	DatabaseConnection.getInstance().desconectar();
+	System.out.println(DatabaseConnection.getInstance().desconectar());
 	
 	}
 }

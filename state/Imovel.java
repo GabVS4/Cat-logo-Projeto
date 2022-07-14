@@ -10,15 +10,15 @@ public class Imovel {
 	}
 	
 	public void ImovelDisponivel() {
-		estado = estado.ImovelDisponivel();
+		estado = estado.terminoContrato();
 	}
 
 	public void ImovelIndisponivel() {
-		estado = estado.ImovelIndisponivel();
+		estado = estado.imovelAlugado();
 	}
 
 	public void ImovelVendido() {
-		estado = estado.ImovelVendido();
+		estado = estado.imovelVend();
 	}
 
 }

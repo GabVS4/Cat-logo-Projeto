@@ -1,6 +1,6 @@
 package state;
 
-public class ImovelNovo implements ImovelState{
+public class ImovelNVend implements ImovelState {
 	
 	public ImovelDisponivel terminoContrato() {
 		System.out.println("Imovel Disponivel");
@@ -13,7 +13,7 @@ public class ImovelNovo implements ImovelState{
 	}
 
 	public ImovelState imovelVend() {
-		System.out.println("Imovel Vendido");
+		System.out.println("Imovel não pode ser vendido");
 		return new ImovelVendido();
 	}
 
