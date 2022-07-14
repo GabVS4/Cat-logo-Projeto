@@ -17,7 +17,7 @@ public class ImovelIndisponivel implements ImovelState {
 	@Override
 	public ImovelState imovelVend() {
 		System.out.println("Imovel nao pode ser vendido");
-		return new ImovelNVend();
+		return this;
 	}
 
 }
